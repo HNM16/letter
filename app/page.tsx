@@ -16,20 +16,30 @@ import toothless from "@/app/toothless.png"
 import stich from "@/app/stichh.png"
 import kitty from "@/app/kitty.webp"
 
-const CORRECT_PASSWORD = "Ronaldo"
+const CORRECT_PASSWORD = "Беззубик"
 
 const LETTER_CONTENT = {
   ru: {
     title: "Моё сердце",
-    text: `Уже прошло 3–4 месяца с тех пор, как я видел тебя. И всё это время я не переставал думать о тебе. Я очень хочу, чтобы та встреча не стала последней.
+    text: `Я хочу попросить прощения за всё, что могло тебя обидеть. Я никогда не хотел причинять тебе боль. и то что кто то тебя обзывал в классе это не я им говорил, наоборот, я просил их перестать. Всё это время я был на твоей стороне.Если ты захочешь, я могу объяснить всё более подробно, как на самом деле было. Ещё раз прости меня за всё.
 
-Я должен признаться: я всё ещё люблю тебя и искренне надеюсь, что в будущем у нас может что-то получиться. Я собирался уехать учиться в Англию, но понял, что меня удерживает здесь. И это — ты. Ты единственная причина, по которой я остаюсь в этой стране.
 
-Я не прошу тебя о многом. Мне достаточно, если мы будем общаться хотя бы раз в неделю. Для меня это будет огромным счастьем. Я мечтаю однажды жениться на тебе, но я не хочу мешать твоей учёбе или планам — наоборот, я хочу, чтобы ты достигла всего, чего желаешь.
 
-Ты для меня особенная. И если ты не захочешь отвечать, я пойму. Но если ответишь — знай, для меня это будет одним из самых радостных моментов за долгое время.`,
+
+
+
+
+    Уже прошло 3–4 месяца с тех пор, как я видел тебя. И всё это время я не переставал думать о тебе. Я очень хочу, чтобы та встреча не стала последней.
+Я должен признаться: я всё ещё люблю тебя и искренне надеюсь, что у нас может быть будущее вместе. Я собирался поехать учиться в Англию, но были причины, по которым я не поехал, и одна из них — ты.
+
+Я не прошу тебя сразу начинать отношения или что-то подобное. Мне будет достаточно, если мы будем общаться хотя бы раз в неделю. Я просто не хочу упустить тебя, потому что мечтаю о том, чтобы однажды жениться на тебе.
+
+Я знаю, что ты хочешь стать стоматологом, и я никогда не буду мешать твоей учёбе — наоборот, готов поддерживать тебя во всём. Ин Ша Аллах, мы сможем вместе открыть клинику и построить наше будущее.
+Я буду принимать все твои капризы, дарить тебе цветы и радость, делать всё, чтобы ты была счастлива. Я никогда не обижу тебя и не дам, чтобы кто-то причинил тебе боль.
+
+Ты для меня особенная, и я буду рад, если ты найдёшь время ответить. Спасибо, что прочитала всё это.`,
     loginTitle: "Вход в личное пространство",
-    loginHint: "Самый лучший футболист в мире (Напиши имя английскими буквами, Первая буква He M)",
+    loginHint: "Пароль — твой любимый мультперсонаж (первая буква — Б).",
     loginButton: "Открыть",
     loginError: "Попробуй ещё раз 💕",
     loginPlaceholder: "Введи пароль...",
@@ -38,15 +48,20 @@ const LETTER_CONTENT = {
   },
   en: {
     title: "My Heart",
-    text: `It's been 3-4 months since I last saw you. And all this time I haven't stopped thinking about you. I really want that meeting not to be the last.
+    text: `I want to apologize for everything that might have hurt you. I never meant to cause you any pain. And the fact that someone called you names in class—it wasn’t me who said it; on the contrary, I asked them to stop. All this time, I have been on your side. If you want, I can explain everything in more detail, how it really happened. Once again, I’m sorry for everything.
 
-I must confess: I still love you and sincerely hope that we might have something in the future. I was going to go study in England, but realized what's keeping me here. And that's you. You're the only reason I'm staying in this country.
+It’s already been 3–4 months since I last saw you, and all this time I haven’t stopped thinking about you. I really hope that our last meeting wasn’t the final one.
 
-I'm not asking for much. It's enough if we communicate at least once a week. For me, that would be enormous happiness. I dream of marrying you someday, but I don't want to interfere with your studies or plans — I want you to achieve everything you desire.
+I have to admit: I still love you and sincerely hope that we could have a future together. I had planned to go study in England, but there were reasons why I didn’t go, and one of them was you.
 
-You are special to me. And if you don't want to answer, I will understand. But if you do answer — it will be one of the happiest moments in a long time.`,
+I’m not asking you to start a relationship or anything like that right away. It would be enough for me if we could just stay in touch, even once a week. I just don’t want to lose you, because I dream of one day marrying you.
+
+I know you want to become a dentist, and I will never interfere with your studies—on the contrary, I’m ready to support you in every way. Inshalla, we could open a clinic together and build our future.
+I will accept all your moods, give you flowers and joy, and do everything I can to make you happy. I will never hurt you and will never let anyone cause you pain.
+
+You are very special to me, and I would be happy if you found the time to reply. Thank you for reading all of this.`,
     loginTitle: "Enter Personal Space",
-    loginHint: "The best footballer in the world (Write the name using English letters, The first letter is not M)",
+    loginHint: "the password is your favourite cartoon character (the first letter is B)",
     loginButton: "Open",
     loginError: "Try again 💕",
     loginPlaceholder: "Enter password...",
@@ -105,22 +120,25 @@ export default function HomePage() {
         <Fireworks isActive={showFireworks} isDarkMode={isDark} />
         <RomanticParticles isDarkMode={isDark} />
 
-        {/* Персонажи */}
-        <div className="absolute top-20 left-8 animate-bounce">
-          <div className="w-112 rounded-full flex items-center justify-center overflow-hidden">
-            <Image src={stich} alt="stich" width={280} height={280} className="object-cover" />
+        {/* 🎭 Персонажи */}
+        {/* Ститч */}
+        <div className="absolute top-10 left-4 sm:top-20 sm:left-8 animate-bounce">
+          <div className="w-14 sm:w-20 md:w-36 lg:w-52 rounded-full overflow-hidden">
+            <Image src={stich} alt="stich" width={200} height={200} className="object-contain" />
           </div>
         </div>
 
-        <div className="absolute top-32 right-12 animate-bounce">
-          <div className="w-100 rounded-full flex items-center justify-center overflow-hidden">
-            <Image src={toothless} alt="Toothless" width={240} height={240} className="object-cover" />
+        {/* Беззубик */}
+        <div className="absolute top-28 right-4 sm:top-32 sm:right-12 animate-bounce">
+          <div className="w-14 sm:w-20 md:w-36 lg:w-48 rounded-full overflow-hidden">
+            <Image src={toothless} alt="toothless" width={180} height={180} className="object-contain" />
           </div>
         </div>
 
-        <div className="absolute bottom-32 left-12 animate-bounce">
-          <div className="w-112 rounded-full flex items-center justify-center overflow-hidden">
-            <Image src={kitty} alt="kitten" width={220} height={220} className="object-cover" />
+        {/* Китти */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 sm:bottom-20 sm:left-12 sm:translate-x-0 animate-bounce">
+          <div className="w-14 sm:w-20 md:w-32 lg:w-44 rounded-full overflow-hidden">
+            <Image src={kitty} alt="kitty" width={160} height={160} className="object-contain" />
           </div>
         </div>
 
@@ -162,7 +180,10 @@ export default function HomePage() {
                 <CardContent className="px-4 py-3">
                   <div className="prose prose-rose max-w-none">
                     {letter.text.split("\n\n").map((paragraph, index) => (
-                      <p key={index} className="mb-2 leading-relaxed text-xs font-caveat text-gray-700">
+                      <p
+                        key={index}
+                        className="mb-2 leading-relaxed text-xs font-caveat text-gray-700"
+                      >
                         {paragraph}
                       </p>
                     ))}
@@ -179,7 +200,7 @@ export default function HomePage() {
     )
   }
 
-  // Lock page
+  // 🔒 Lock page
   return (
     <div
       className={`min-h-screen flex items-center justify-center p-4 transition-all duration-1000 ${
@@ -210,16 +231,28 @@ export default function HomePage() {
           {/* Ключ */}
           {isLockOpening && (
             <div className="absolute top-14 left-1/2 transform -translate-x-1/2 animate-spin-key">
-              <Key className={`w-6 h-6 ${isDark ? "text-yellow-300" : "text-yellow-400"}`} />
+              <Key
+                className={`w-6 h-6 ${isDark ? "text-yellow-300" : "text-yellow-400"}`}
+              />
             </div>
           )}
 
           {/* Ввод пароля */}
           <div className="absolute bottom-4 left-4 right-4 space-y-2 text-center">
-            <h2 className={`text-base font-bold ${isDark ? "text-white/90" : "text-gray-800"}`}>
+            <h2
+              className={`text-base font-bold ${
+                isDark ? "text-white/90" : "text-gray-800"
+              }`}
+            >
               {letter.loginTitle}
             </h2>
-            <p className={`text-xs ${isDark ? "text-pink-100/90" : "text-white/90"}`}>{letter.loginHint}</p>
+            <p
+              className={`text-xs ${
+                isDark ? "text-pink-100/90" : "text-white/90"
+              }`}
+            >
+              {letter.loginHint}
+            </p>
             <form onSubmit={handleSubmit} className="space-y-2">
               <Input
                 type="password"

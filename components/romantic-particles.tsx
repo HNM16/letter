@@ -49,7 +49,7 @@ export function RomanticParticles({ isDarkMode }: RomanticParticlesProps) {
         <div
           key={`orb-${i}`}
           className={`absolute rounded-full animate-romantic-glow transition-all duration-1000 ${
-            isDarkMode ? "bg-rose-500/20" : "bg-rose-300/30"
+            isDarkMode ? "bg-rose-900" : "bg-rose-800/30"
           }`}
           style={{
             left: `${15 + i * 15}%`,

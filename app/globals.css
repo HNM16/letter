@@ -41,9 +41,9 @@
 
 .dark {
   --background: oklch(0.1 0.05 280); /* Deep purple background */
-  --foreground: oklch(0.95 0.02 340); /* Light pink text */
+  --foreground: oklch(100% 0.00011 271.152); /* Light pink text */
   --card: oklch(0.15 0.05 280); /* Dark purple cards */
-  --card-foreground: oklch(0.95 0.02 340); /* Light pink card text */
+  --card-foreground: oklch(100% 0.00011 271.152); /* Light pink card text */
   --popover: oklch(0.15 0.05 280); /* Dark purple popover */
   --popover-foreground: oklch(0.95 0.02 340); /* Light pink popover text */
   --primary: oklch(0.7 0.25 340); /* Bright pink primary in dark */
@@ -69,7 +69,7 @@
   --sidebar-foreground: oklch(0.95 0.02 340); /* Light pink sidebar text */
   --sidebar-primary: oklch(0.7 0.25 340); /* Bright pink sidebar primary */
   --sidebar-primary-foreground: oklch(0.1 0.05 280); /* Dark sidebar primary text */
-  --sidebar-accent: oklch(0.2 0.05 280); /* Dark purple sidebar accent */
+  --sidebar-accent: oklch(62.23% 0.26076 328.15); /* Dark purple sidebar accent */
   --sidebar-accent-foreground: oklch(0.9 0.02 340); /* Light pink sidebar accent text */
   --sidebar-border: oklch(0.25 0.05 280); /* Dark purple sidebar border */
   --sidebar-ring: oklch(0.7 0.25 340 / 0.5); /* Pink sidebar ring */
