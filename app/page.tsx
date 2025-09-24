@@ -34,7 +34,7 @@ const LETTER_CONTENT = {
 
 Мой Telegram: @hakimzoda16. Пожалуйста, напиши мне свой ответ.`,
     loginTitle: "Вход в личное пространство",
-    loginHint: "Пароль 1122.",
+    loginHint: "Код на бумажке, которую я дал тебе.",
     loginButton: "Открыть",
     loginError: "Попробуй ещё раз 💕",
     loginPlaceholder: "Введи пароль...",
@@ -56,7 +56,7 @@ You are very special to me, and I would be happy if you found the time to reply.
 My Telegram: @hakimzoda16. Please write me your reply.
 `,
     loginTitle: "Enter Personal Space",
-    loginHint: "the password is 1122)",
+    loginHint: "tThe password on the piece of paper that I gave you.",
     loginButton: "Open",
     loginError: "Try again 💕",
     loginPlaceholder: "Enter password...",
