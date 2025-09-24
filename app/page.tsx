@@ -16,30 +16,25 @@ import toothless from "@/app/toothless.png"
 import stich from "@/app/stichh.png"
 import kitty from "@/app/kitty.webp"
 
-const CORRECT_PASSWORD = "Беззубик"
+const CORRECT_PASSWORD = "1122"
 
 const LETTER_CONTENT = {
   ru: {
     title: "Моё сердце",
-    text: `Я хочу попросить прощения за всё, что могло тебя обидеть. Я никогда не хотел причинять тебе боль. и то что кто то тебя обзывал в классе это не я им говорил, наоборот, я просил их перестать. Всё это время я был на твоей стороне.Если ты захочешь, я могу объяснить всё более подробно, как на самом деле было. Ещё раз прости меня за всё.
+    text: `Здравствуй.
+Если честно, я ещё никогда не подходил к девушке, чтобы сказать ей, что она мне нравится, но к тебе подошёл. Я вот сейчас честно скажу: когда я впервые увидел тебя, ты сразу же понравилась мне, и я не смог не подойти. Я понял, что должен прожить оставшуюся жизнь с тобой. Конечно же, ты потом отказала, но ты не должна так делать. Сейчас скажу почему: я никогда не обижу тебя и не дам в обиду, буду делать всё, чтобы сделать тебя счастливой, чтобы на твоём лице всегда была улыбка, буду дарить подарки. И, конечно же, я не просто так хочу с тобой пообщаться — у меня серьёзные намерения. И нет, я не такой, как другие, я сильно отличаюсь, и я тебе потом это покажу.
+
+Да, ты не знакомишься, ты не хочешь общаться, но со мной стоит попробовать. Твоя судьба буквально даёт тебе беспроигрышную лотерею (меня), и ты не должна отказываться от этой лотереи. Я ещё не признавался девушке и поэтому не знаю, как это сделать, и знаю, что письмо, которое я написал, полный кринж.
+Я очень сильно хочу, чтобы ты общалась со мной. Ради тебя я готов на всё. Не говори «нет», пожалуйста.
+
+
+Ты для меня особенная, и я буду рад, если ты найдёшь время ответить. Спасибо, что прочитала всё это.
 
 
 
-
-
-
-
-    Уже прошло 3–4 месяца с тех пор, как я видел тебя. И всё это время я не переставал думать о тебе. Я очень хочу, чтобы та встреча не стала последней.
-Я должен признаться: я всё ещё люблю тебя и искренне надеюсь, что у нас может быть будущее вместе. Я собирался поехать учиться в Англию, но были причины, по которым я не поехал, и одна из них — ты.
-
-Я не прошу тебя сразу начинать отношения или что-то подобное. Мне будет достаточно, если мы будем общаться хотя бы раз в неделю. Я просто не хочу упустить тебя, потому что мечтаю о том, чтобы однажды жениться на тебе.
-
-Я знаю, что ты хочешь стать стоматологом, и я никогда не буду мешать твоей учёбе — наоборот, готов поддерживать тебя во всём. Ин Ша Аллах, мы сможем вместе открыть клинику и построить наше будущее.
-Я буду принимать все твои капризы, дарить тебе цветы и радость, делать всё, чтобы ты была счастлива. Я никогда не обижу тебя и не дам, чтобы кто-то причинил тебе боль.
-
-Ты для меня особенная, и я буду рад, если ты найдёшь время ответить. Спасибо, что прочитала всё это.`,
+Мой Telegram: @hakimzoda16. Пожалуйста, напиши мне свой ответ.`,
     loginTitle: "Вход в личное пространство",
-    loginHint: "Пароль — твой любимый мультперсонаж (первая буква — Б).",
+    loginHint: "Пароль 1122.",
     loginButton: "Открыть",
     loginError: "Попробуй ещё раз 💕",
     loginPlaceholder: "Введи пароль...",
@@ -48,20 +43,20 @@ const LETTER_CONTENT = {
   },
   en: {
     title: "My Heart",
-    text: `I want to apologize for everything that might have hurt you. I never meant to cause you any pain. And the fact that someone called you names in class—it wasn’t me who said it; on the contrary, I asked them to stop. All this time, I have been on your side. If you want, I can explain everything in more detail, how it really happened. Once again, I’m sorry for everything.
+    text: `Hello.
+To be honest, I’ve never approached a girl to tell her that I like her, but with you I did. I’ll be honest now: when I first saw you, I immediately liked you, and I just couldn’t walk past. I realized that I want to spend the rest of my life with you. Of course, you refused me later, but you shouldn’t have. Now I’ll tell you why: I will never hurt you or let anyone hurt you, I will do everything to make you happy, to keep a smile on your face, I will give you gifts. And of course, I don’t just want to talk to you — I have serious intentions. And no, I’m not like the others, I’m very different, and I’ll show you that later.
 
-It’s already been 3–4 months since I last saw you, and all this time I haven’t stopped thinking about you. I really hope that our last meeting wasn’t the final one.
+Yes, you don’t meet new people, you don’t want to talk, but with me it’s worth a try. Your destiny is literally giving you a win-win lottery (me), and you shouldn’t refuse this lottery. I’ve never confessed to a girl before, so I don’t know how to do it, and I know that this letter I wrote is totally cringe.
+I really want you to talk to me. For you, I’m ready for anything. Please don’t say “no.”
 
-I have to admit: I still love you and sincerely hope that we could have a future together. I had planned to go study in England, but there were reasons why I didn’t go, and one of them was you.
+You are very special to me, and I would be happy if you found the time to reply. Thank you for reading all of this.
 
-I’m not asking you to start a relationship or anything like that right away. It would be enough for me if we could just stay in touch, even once a week. I just don’t want to lose you, because I dream of one day marrying you.
 
-I know you want to become a dentist, and I will never interfere with your studies—on the contrary, I’m ready to support you in every way. Inshalla, we could open a clinic together and build our future.
-I will accept all your moods, give you flowers and joy, and do everything I can to make you happy. I will never hurt you and will never let anyone cause you pain.
 
-You are very special to me, and I would be happy if you found the time to reply. Thank you for reading all of this.`,
+My Telegram: @hakimzoda16. Please write me your reply.
+`,
     loginTitle: "Enter Personal Space",
-    loginHint: "the password is your favourite cartoon character (the first letter is B)",
+    loginHint: "the password is 1122)",
     loginButton: "Open",
     loginError: "Try again 💕",
     loginPlaceholder: "Enter password...",
